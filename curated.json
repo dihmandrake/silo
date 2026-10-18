@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16T08:13:18+00:00",
-  "revision": "24ba6c3743dfe323ff937b39cde50e363f517d1b",
+  "updated": "2026-10-18T23:46:04+00:00",
+  "revision": "14ed68ca92bfc3ed4492cfa47ac233aa2641db1f",
   "repositories": [
     "pgsty/silo",
     "pgsty/silo-console",
@@ -36,6 +36,13 @@
       "featured": true,
       "what": "Patched CVE-2026-39883 in OpenTelemetry",
       "firstContribution": "2026-04-10"
+    },
+    {
+      "handle": "cbornet",
+      "group": "code",
+      "featured": true,
+      "what": "Reported checksum and missing-bucket defects and aligned S3 checksum error messages",
+      "firstContribution": "2026-04-24"
     },
     {
       "handle": "pinginfo",
@@ -87,11 +94,46 @@
       "firstContribution": "2026-09-07"
     },
     {
+      "handle": "julienlau",
+      "group": "code",
+      "featured": true,
+      "what": "Fixed missing-commit-metadata error handling and stale metadata reuse; contributed replication reports and proposals",
+      "firstContribution": "2026-09-07"
+    },
+    {
       "handle": "Aeirx",
       "group": "code",
       "featured": true,
       "what": "Preserved Object Lock legal-hold headers in federated CopyObject",
       "firstContribution": "2026-09-09"
+    },
+    {
+      "handle": "AleksaMCode",
+      "group": "code",
+      "featured": true,
+      "what": "Fixed the Lambda target-set emptiness check and added a regression test",
+      "firstContribution": "2026-09-17"
+    },
+    {
+      "handle": "yupoet",
+      "group": "code",
+      "featured": true,
+      "what": "Improved checksum mismatch messages, verified erasure-coding documentation, and proposed an upgrade guide",
+      "firstContribution": "2026-09-26"
+    },
+    {
+      "handle": "clown15",
+      "group": "code",
+      "featured": true,
+      "what": "Fixed native multipart-upload timestamp parsing during stale-upload cleanup",
+      "firstContribution": "2026-10-15"
+    },
+    {
+      "handle": "botdeniska",
+      "group": "code",
+      "featured": true,
+      "what": "Contributed multi-pool migration safety repairs and faster policy evaluation in silo-pkg",
+      "firstContribution": "2026-10-17"
     },
     {
       "handle": "magicxor",
@@ -122,13 +164,6 @@
       "firstContribution": "2026-09-05"
     },
     {
-      "handle": "julienlau",
-      "group": "proposed",
-      "featured": true,
-      "what": "Reported MRF queue and delete-marker retry defects; contributed repair proposals, tests, and documentation",
-      "firstContribution": "2026-09-07"
-    },
-    {
       "handle": "chodorenko",
       "group": "proposed",
       "featured": true,
@@ -157,20 +192,6 @@
       "firstContribution": "2026-03-23"
     },
     {
-      "handle": "cbornet",
-      "group": "reports",
-      "featured": true,
-      "what": "Reported multipart and streaming checksum defects and missing-bucket semantics",
-      "firstContribution": "2026-04-24"
-    },
-    {
-      "handle": "orenyomtov",
-      "group": "reports",
-      "featured": true,
-      "what": "Reported the unsigned-header CopyObject cross-object read (SN-2026-011)",
-      "firstContribution": "9999-12-31"
-    },
-    {
       "handle": "jiri-pejchal",
       "group": "reports",
       "featured": true,
@@ -183,6 +204,34 @@
       "featured": true,
       "what": "Reported the slow-HTTP denial-of-service vulnerability",
       "firstContribution": "2026-09-14"
+    },
+    {
+      "handle": "naiveHobo",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported an IAM admin API access-control issue and the unavailable private reporting channel",
+      "firstContribution": "2026-09-22"
+    },
+    {
+      "handle": "orenyomtov",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported the unsigned-header CopyObject cross-object read (SN-2026-011)",
+      "firstContribution": "9999-12-31"
+    },
+    {
+      "handle": "nik0xFF",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported a security issue privately by email",
+      "firstContribution": "9999-12-31"
+    },
+    {
+      "handle": "szopi00",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported the Object Lock GOVERNANCE retention authorization bypass",
+      "firstContribution": "9999-12-31"
     },
     {
       "handle": "mosesdd",
@@ -365,6 +414,48 @@
       "featured": false,
       "what": "Reported a data race in CPU metrics collection",
       "firstContribution": "2026-09-16"
+    },
+    {
+      "handle": "0mp",
+      "group": "reports",
+      "featured": false,
+      "what": "Requested and discussed FreeBSD support",
+      "firstContribution": "2026-09-17"
+    },
+    {
+      "handle": "ztarbug",
+      "group": "reports",
+      "featured": false,
+      "what": "Requested publication of the Helm chart",
+      "firstContribution": "2026-09-22"
+    },
+    {
+      "handle": "zmstone",
+      "group": "reports",
+      "featured": false,
+      "what": "Requested a GitHub Container Registry mirror",
+      "firstContribution": "2026-09-24"
+    },
+    {
+      "handle": "Crowley723",
+      "group": "reports",
+      "featured": false,
+      "what": "Requested friendly names for users",
+      "firstContribution": "2026-09-25"
+    },
+    {
+      "handle": "geraldcombs",
+      "group": "reports",
+      "featured": false,
+      "what": "Suggested zip or 7z packaging for Windows artifacts",
+      "firstContribution": "2026-09-30"
+    },
+    {
+      "handle": "devTeam-AiReg",
+      "group": "reports",
+      "featured": false,
+      "what": "Asked about availability of the release containing IAM security fixes",
+      "firstContribution": "2026-10-18"
     }
   ]
 }

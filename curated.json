@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-18T23:46:04+00:00",
-  "revision": "14ed68ca92bfc3ed4492cfa47ac233aa2641db1f",
+  "revision": "3539d11fc8a99fdedd63879b89fd57342593209c",
   "repositories": [
     "pgsty/silo",
     "pgsty/silo-console",
@@ -118,7 +118,7 @@
       "handle": "yupoet",
       "group": "code",
       "featured": true,
-      "what": "Improved checksum mismatch messages, verified erasure-coding documentation, and proposed an upgrade guide",
+      "what": "Improved checksum mismatch messages, verified erasure-coding documentation, and contributed a single-node migration case",
       "firstContribution": "2026-09-26"
     },
     {

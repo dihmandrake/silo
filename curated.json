@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18T23:46:04+00:00",
-  "revision": "3539d11fc8a99fdedd63879b89fd57342593209c",
+  "updated": "2026-10-25T16:00:37+00:00",
+  "revision": "f9ea34e1c8c8454e34c80105ce1251cada3d431b",
   "repositories": [
     "pgsty/silo",
     "pgsty/silo-console",
@@ -132,8 +132,15 @@
       "handle": "botdeniska",
       "group": "code",
       "featured": true,
-      "what": "Contributed multi-pool migration safety repairs and faster policy evaluation in silo-pkg",
+      "what": "Contributed multi-pool migration and deletion safety, tiered expiry and replication checksum repairs, and faster policy evaluation in silo-pkg",
       "firstContribution": "2026-10-17"
+    },
+    {
+      "handle": "910patin",
+      "group": "code",
+      "featured": true,
+      "what": "Fixed long-DN LDAP login while preserving IAM revocation-record errors",
+      "firstContribution": "2026-10-19"
     },
     {
       "handle": "magicxor",
@@ -456,6 +463,20 @@
       "featured": false,
       "what": "Asked about availability of the release containing IAM security fixes",
       "firstContribution": "2026-10-18"
+    },
+    {
+      "handle": "azataiot",
+      "group": "reports",
+      "featured": false,
+      "what": "Reported and analyzed high-latency Console health-report truncation during WebSocket close",
+      "firstContribution": "2026-10-19"
+    },
+    {
+      "handle": "GhaziTriki",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported policy-query and Console performance degradation",
+      "firstContribution": "2026-10-20"
     }
   ]
 }

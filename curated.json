@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T16:00:37+00:00",
-  "revision": "f9ea34e1c8c8454e34c80105ce1251cada3d431b",
+  "updated": "2026-10-26T16:35:06+00:00",
+  "revision": "f2b5d10abfabf11fdb5917eb9ee4a96dd356a0d2",
   "repositories": [
     "pgsty/silo",
     "pgsty/silo-console",
@@ -76,7 +76,7 @@
       "handle": "mrjavadseydi",
       "group": "code",
       "featured": true,
-      "what": "Fixed bucket quota metrics; contributed access-frequency ILM and S3-compatible multipart listing proposals",
+      "what": "Fixed bucket quota metrics and mcli alias regions; contributed access-frequency ILM and S3-compatible multipart listing proposals",
       "firstContribution": "2026-08-15"
     },
     {
@@ -190,6 +190,13 @@
       "featured": false,
       "what": "Proposed robustness and goroutine improvements",
       "firstContribution": "2026-06-24"
+    },
+    {
+      "handle": "MikeVL",
+      "group": "reports",
+      "featured": true,
+      "what": "Reported resync throughput overflow and missing JSON status, both fixed in mcli 20261026",
+      "firstContribution": "2026-10-25"
     },
     {
       "handle": "vampywiz17",
@@ -454,7 +461,7 @@
       "handle": "geraldcombs",
       "group": "reports",
       "featured": false,
-      "what": "Suggested zip or 7z packaging for Windows artifacts",
+      "what": "Suggested Windows ZIP packaging, adopted across the maintained release tools",
       "firstContribution": "2026-09-30"
     },
     {
